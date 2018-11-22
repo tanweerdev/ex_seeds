@@ -1,10 +1,10 @@
-defmodule FatEcto.MixProject do
+defmodule ExSeeds.MixProject do
   use Mix.Project
 
   def project do
     [
       app: :ex_seeds,
-      version: "0.1.2",
+      version: "0.1.4",
       elixir: "~> 1.7",
       start_permanent: Mix.env() == :prod,
       build_embedded: Mix.env() == :prod,
